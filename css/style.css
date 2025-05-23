@@ -44,6 +44,59 @@ html {
   }
 }
 
+@media only screen and (max-width: 56.25em) {
+  #IUT {
+    max-width: 100%;
+    height: auto;
+  }
+  #terminal {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  #IUT {
+    max-width: 6rem;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  #terminal {
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width: 37.5em) {
+  #IUT {
+    max-width: 6rem;
+    height: auto;
+  }
+  #terminal {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 56.25em) {
+  table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+
+  #terminal {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  #terminal {
+    width: 100%;
+    left: 0;
+  }
+}
 body {
   box-sizing: border-box;
   position: relative;
@@ -210,12 +263,12 @@ textarea {
 }
 
 .btn--theme {
-  background: #0062b9;
+  background: #ab9bdf;
   color: #fff;
 }
 
 .btn--theme-inv {
-  color: #0062b9;
+  color: #866cfb;
   background: #fff;
   border: 2px solid #0062b9;
   box-shadow: none;

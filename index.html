@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Dopefolio</title>
+  <title>Adrien Mangin</title>
   <meta name="description" content="Portfolio Template for Developer" />
 
   <link rel="stylesheet" href="css/style.css" />
@@ -24,6 +24,7 @@
           <img src="./assets/png/john-doe.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
         </div>
         <span class="header__logo-sub">Adrien Mangin</span>
+        <img id="IUT" class="header__logo-container" src="./assets/png/Logo_IUT-UL_dept_info.png" alt="" style="height: 5rem; margin-left: 2rem;" />
       </div>
       <div class="header__main">
         <ul class="header__links">
@@ -33,6 +34,11 @@
           <li class="header__link-wrapper">
             <a href="./index.html#about" class="header__link">A propos </a>
           </li>
+
+          <li class="header__link-wrapper">
+            <a href="./index.html#stage" class="header__link"> Stage </a>
+          </li>
+
           <li class="header__link-wrapper">
             <a href="./index.html#projects" class="header__link">
               Projets
@@ -58,6 +64,10 @@
 
           <li class="header__sm-menu-link">
             <a href="./index.html#about"> A propos </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#stage"> Stage </a>
           </li>
 
           <li class="header__sm-menu-link">
@@ -87,30 +97,16 @@
     </div>
     <div class="home-hero__socials">
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="home-hero__social-icon-link">
           <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
         </a>
       </div>
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a href="https://github.com/adrienMGN" class="home-hero__social-icon-link">
           <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
         </a>
       </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
-          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
-          <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
-          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
-        </a>
-      </div>
+      
     </div>
     <div class="home-hero__mouse-scroll-cont">
       <div class="mouse"></div>
@@ -247,6 +243,30 @@
           </div>
         </div>
   </section>
+
+  <!-- STAGE -->
+
+  <section id="stage" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Stage</span>
+        <span class="heading-sec__sub">
+          La deuxième année de BUT Informatique est l'occasion de réaliser un stage de deux mois dans le domaine de l'informatique. Ce stage est une opportunité d'appliquer les compétences acquises en cours et de découvrir le monde professionnel.
+        </span>
+      </h2>
+      <p style="font-size: 2rem; color: gray;">
+        J'ai eu l'opportunité de réaliser mon stage de 10 semaines au LORIA, un laboratoire de recherche en informatique. J'ai travaillé sur un projet de recherche sur un réseau de capteurs de qualité de l'air. J'ai mis en place une architecture MQTT par VPN et créé des services systemd et des scripts bash. Ce stage m'a permis d'acquérir une expérience précieuse dans le domaine de l'administration système et réseau, ainsi que dans la gestion de projets de recherche.
+        <br>
+        Cette expérience m'a permis de découvrir le monde de la recherche et de travailler de manière autonome sur un projet concret. J'ai également appris à travailler en équipe et à communiquer efficacement avec mes collègues. 
+        La liberté que j'ai pu avoir dans le choix des outils et des méthodes de travail m'a permis de développer ma créativité et ma capacité à résoudre des problèmes complexes avec une approche scientifique. 
+        L'aspect gestion de projet, maintenabiulité, documentation et coût ont été des aspects importants de ce stage. J'ai appris à gérer mon temps et à respecter les délais tout en produisant un travail de qualité.
+        <br>
+        J'ai beaucoup apprécier l'ambiance de travail au LORIA, où j'ai pu échanger avec des chercheurs et des étudiants passionnés par l'informatique. J'ai également eu l'occasion de participer à des séminaires et des conférences sur des sujets variés liés à l'informatique.
+        Ce stage a renforcé ma passion pour l'informatique et m'a donné envie de poursuivre mes études dans ce domaine.
+      </p>
+
+  </section>
+  <!-- section stage -->
   <section id="projects" class="projects sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -260,49 +280,63 @@
       <div class="projects__content">
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img"
+            <img src="./assets/png/topo.png" alt="Software Screenshot" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Projet 1</h3>
+            <h3 class="projects__row-content-title">Simsennet (stage) </h3>
             <p class="projects__row-content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora, explicabo quae quod deserunt eius sapiente
-              praesentium.
+              Lors de mon stage au LORIA, j'ai contribué à un projet de recherche sur un réseau de capteurs de qualité de l'air. J'ai mis en place une architecture MQTT par VPN et créé des services systemd et des scripts bash avec des Raspberry Pi.
             </p>
-            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            <a href="./assets/Rapport-1.pdf" class="btn btn--med btn--theme dynamicBgClr" target="_blank"> En savoir plus </a>
           </div>
         </div>
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img"
+            <img src="./assets/png/diag.png" alt="Software Screenshot" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Projet 2</h3>
+            <h3 class="projects__row-content-title">Générateur de diagrammes de classes (SAE 3.1)</h3>
             <p class="projects__row-content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora, explicabo quae quod deserunt eius sapiente
-              praesentium.
+              Lors de cette SAE j'ai développé avec mon équipe, un générateur de diagrammes de classes à partir d'un fichier class Java. J'ai utilisé Java et JavaFX pour créer une interface graphique intuitive.
+              Les phases de conceptions et une méthode agile ont été appliquées pour la gestion de projet. Les concepts de classloader et introspections de Java ont été utilisés pour la création de diagrammes de classes.
             </p>
-            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            <a href="https://github.com/adrienMGN/SAE_Dev_App" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Lien Github</a>
           </div>
         </div>
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img"
+            <img src="./assets/png/nrv.png" alt="Software Screenshot" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Projet 3</h3>
+            <h3 class="projects__row-content-title">NRV Festival (SAE Dev Web)</h3>
             <p class="projects__row-content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora, explicabo quae quod deserunt eius sapiente
-              praesentium.
+              Lors de cette SAE j'ai développé avec mon équipe, un site web pour un festival de musique. J'ai utilisé HTML, CSS et PHP pour créer une interface utilisateur attrayante et réactive. J'ai également mis en place un système de gestion des utilisateurs et des réservations.
+              L'aspect de conception de la base de données et l'aspect de la sécurité ont été pris en compte pour garantir la protection des données des utilisateurs.
             </p>
-            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            <a href="https://github.com/adrienMGN/SAE_Dev_Web" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Lien Github</a>
           </div>
         </div>
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/cmd.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Mini bash (SAE )</h3>
+            <p class="projects__row-content-desc">
+              Lors de cette SAE j'ai développé avec mon équipe, un mini shell en C. J'ai utilisé le langage C pour créer un interpréteur de commandes qui gère les processus, les redirections et les pipes. J'ai également mis en place une gestion des erreurs et des signaux pour garantir la robustesse du programme.
+              Ce projet m'a permis de renforcer mes compétences en programmation système et en gestion des processus. J'ai aussi pu comprendre le fonctionnement de l'interface en ligne de commande et les interactions entre le système d'exploitation et les applications.
+              La SAE comportait également une partie création de paquet debian et serveur web qui permet de télécharger le paquet. Cet aspect m'a permis de découvrir le fonctionnement des paquets debian avec apt et la création de serveur web.
+            </p>
+            <a href="https://github.com/adrienMGN/SAE_System" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Lien Github</a>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </section>
@@ -995,15 +1029,7 @@
             <a target="_blank" rel="noreferrer" href="https://github.com/adrienMGN">
               <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
             </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
-            </a>
+        
           </div>
         </div>
         <div class="main-footer__row main-footer__row-2">
